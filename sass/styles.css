@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box; }
+
+* {
+  list-style: none; }
+
+* {
+  font: 16px/18px Georgia, sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  font-family: Georgia;
+  text-align: center; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 1.75em;
+  line-height: 1.85em; }
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: black; }
+  a:hover {
+    text-decoration: underline;
+    background-color: #ffd247;
+    transition: 0.75s; }
+    a:hover:focus {
+      text-decoration: underline;
+      color: white; }
+
+.clear-both {
+  clear: both;
+  margin-bottom: 120px; }
+
+.is-current {
+  background-color: #ffd247; }
+
+.profile {
+  height: 300px;
+  width: auto;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.header {
+  text-align: center; }
+
+.top-img-pj {
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+#work .accordian-inside {
+  width: 40%;
+  margin: 0 auto; }
+#work h2:hover,
+#work h2:active,
+#work h2.is-current {
+  background-color: #ffd247; }
+#work .photos:active, #work .photos:hover,
+#work .edu-phsy:active, #work .edu-phys:hover,
+#work .pro-virt:active, #work .pro-virt:hover,
+#work .talk:hover, #work .talk:active {
+  transition: 0.75s; }
+
+#contact .form input {
+  width: 40%;
+  margin: 0 auto; }
+
+button {
+  background: #637b4a;
+  border: 1px solid #666;
+  border-radius: 2px 2px 2px 2px;
+  padding: 0.6em;
+  color: white;
+  letter-spacing: 0.124em;
+  position: relative;
+  margin: 0 auto; }
+
+button:focus {
+  background: #ffd247;
+  transition: 0.75s; }
+
+.xochitl {
+  text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */

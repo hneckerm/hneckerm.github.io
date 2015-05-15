@@ -1,0 +1,123 @@
+* { box-sizing: border-box;}
+* { list-style: none ;}
+* { font: 16px/18px Georgia, sans-serif; }
+
+$green: #637b4a;
+$yellow: #ffd247;
+
+h1, h2, h3, h4, h5 {
+	font-family: Georgia;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 1.75em;
+	line-height: 1.85em;
+	// background-color: #e74c3c;
+	// color: white;
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none; 
+	color: black;
+
+	&:hover {
+		text-decoration: underline;
+		background-color: $yellow;
+		transition: 0.75s;
+	
+
+		&:focus {
+			text-decoration: underline;
+			color: white;
+		}
+	}
+}
+
+.clear-both {
+	clear: both;
+	margin-bottom: 120px;
+}
+
+.is-current {
+	background-color: $yellow;
+}
+
+.profile {
+	height: 300px;
+	width: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+.header {
+	text-align: center;
+}
+
+.top-img-pj {
+	width: 300px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block
+}
+
+#work {
+	.accordian-inside {
+		width: 40%;
+		margin: 0 auto;
+	}
+	
+	h2:hover,
+	h2:active,
+	h2.is-current {
+		background-color: $yellow;
+	}
+
+	.photos:active, .photos:hover, 
+	.edu-phsy:active, .edu-phys:hover, 
+	.pro-virt:active, .pro-virt:hover,
+	.talk:hover, .talk:active {
+		// background-color: $yellow;
+		transition: 0.75s;
+	}
+}
+
+
+#contact {
+	.form input {
+		width: 40%;
+		margin: 0 auto;
+	}
+}
+
+button {
+	background: $green;
+	border: 1px solid #666;
+	border-radius: 2px 2px 2px 2px;
+	padding: 0.6em;
+	color: white;
+	letter-spacing: 0.124em;
+	position: relative;
+	margin: 0 auto;
+}
+
+button:focus {
+	background: $yellow;
+	transition: 0.75s;
+}
+
+.xochitl {
+	text-align: center;
+}
+
