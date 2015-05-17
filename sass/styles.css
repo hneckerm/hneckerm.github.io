@@ -18,6 +18,9 @@ h2 {
   font-size: 1.75em;
   line-height: 1.85em; }
 
+.xochitl {
+  text-align: center; }
+
 a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
@@ -32,7 +35,7 @@ a {
 
 .clear-both {
   clear: both;
-  margin-bottom: 120px; }
+  margin-bottom: 50px; }
 
 .is-current {
   background-color: #ffd247; }
@@ -55,10 +58,10 @@ a {
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  display: block; }
+  display: inline-block; }
 
 #work .accordian-inside {
-  width: 40%;
+  width: 80%;
   margin: 0 auto; }
 #work h2:hover,
 #work h2:active,
@@ -66,13 +69,8 @@ a {
   background-color: #ffd247; }
 #work .photos:active, #work .photos:hover,
 #work .edu-phsy:active, #work .edu-phys:hover,
-#work .pro-virt:active, #work .pro-virt:hover,
-#work .talk:hover, #work .talk:active {
+#work .pro-virt:active, #work .pro-virt:hover {
   transition: 0.75s; }
-
-#contact .form input {
-  width: 40%;
-  margin: 0 auto; }
 
 button {
   background: #637b4a;
@@ -86,9 +84,17 @@ button {
 
 button:focus {
   background: #ffd247;
-  transition: 0.75s; }
+  transition: 0.5s; }
 
-.xochitl {
-  text-align: center; }
+.projects a {
+  text-decoration: underline;
+  background-color: #ffd247; }
+.projects a:hover {
+  text-decoration: none;
+  background-color: white;
+  transition: 0.25s; }
+
+.safety {
+  margin-bottom: 50px; }
 
 /*# sourceMappingURL=styles.css.map */

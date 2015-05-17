@@ -21,6 +21,10 @@ h2 {
 	// color: white;
 }
 
+.xochitl {
+	text-align: center;
+}
+
 a {
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none; 
@@ -39,9 +43,10 @@ a {
 	}
 }
 
+
 .clear-both {
 	clear: both;
-	margin-bottom: 120px;
+	margin-bottom: 50px;
 }
 
 .is-current {
@@ -69,12 +74,12 @@ a {
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	display: block
+	display: inline-block;
 }
 
 #work {
 	.accordian-inside {
-		width: 40%;
+		width: 80%;
 		margin: 0 auto;
 	}
 	
@@ -86,20 +91,12 @@ a {
 
 	.photos:active, .photos:hover, 
 	.edu-phsy:active, .edu-phys:hover, 
-	.pro-virt:active, .pro-virt:hover,
-	.talk:hover, .talk:active {
+	.pro-virt:active, .pro-virt:hover, {
 		// background-color: $yellow;
 		transition: 0.75s;
 	}
 }
 
-
-#contact {
-	.form input {
-		width: 40%;
-		margin: 0 auto;
-	}
-}
 
 button {
 	background: $green;
@@ -114,10 +111,23 @@ button {
 
 button:focus {
 	background: $yellow;
-	transition: 0.75s;
+	transition: 0.5s;
 }
 
-.xochitl {
-	text-align: center;
+.projects {
+
+	a {
+		text-decoration: underline;
+		background-color: $yellow;
+	}
+
+	a:hover {
+		text-decoration: none;
+		background-color: white;
+		transition: 0.25s;
+	}
 }
 
+.safety {
+	margin-bottom: 50px;
+}
